@@ -1,4 +1,4 @@
-/*  */
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
@@ -18,11 +18,6 @@
   text-transform: capitalize;
   transition: all .2s linear;
 }
-
-/* *::selection{
-  background:var(--red);
-  color:#fff;
-} */
 
 html{
   font-size: 62.5%;
@@ -116,6 +111,10 @@ header .navbar a:hover{
   padding:1rem 0;
 }
 
+.content ul {
+  list-style: none;
+}
+
 .home .swiper-container {
   width: 100%;
   padding-top: 5rem;
@@ -141,14 +140,6 @@ header .navbar a:hover{
   flex-wrap: wrap;
 }
 
-.about .row .image{
-  flex:1 1 40rem;
-}
-
-.about .row .image img{
-  width:100%;
-}
-
 .about .row .content{
   flex:1 1 40rem;
 }
@@ -164,21 +155,7 @@ header .navbar a:hover{
   padding:1rem 0;
 }
 
-.about .row .content .buttons{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.about .row .content .buttons a:hover{
-  opacity: .7;
-}
-
-.about .row .content .buttons a:last-child{
-  margin-left: 2rem;
-}
-
 /* Price */
-
 .pricing .box-container{
   display: flex;
   align-items: center;
@@ -191,14 +168,14 @@ header .navbar a:hover{
   text-align: center;
   margin:1rem;
   padding:2rem 0;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.1); */
   border:.1rem solid rgba(0,0,0,.3);
 }
 
 .pricing .box-container .box .price{
   font-size: 5rem;
   color:var(--black);
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 
 .pricing .box-container .box .price span{
@@ -229,6 +206,8 @@ header .navbar a:hover{
 .pricing .box-container .box .btn{
   margin-top: 2rem;
 }
+
+/* Footer */
 
 .footer{
   text-align: center;
